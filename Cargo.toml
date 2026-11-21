@@ -1,0 +1,11 @@
+[package]
+name = "rust_from_zero_to_hero"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "main"
+path = "src/lesson2/main.rs"
+
