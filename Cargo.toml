@@ -7,5 +7,5 @@ edition = "2024"
 
 [[bin]]
 name = "main"
-path = "src/lesson5/main.rs"
+path = "src/lesson6/main.rs"
 

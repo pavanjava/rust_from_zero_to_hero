@@ -66,4 +66,21 @@ fn main() {
         }
     };
     println!("The result is {}", result);
+
+    // FizzBuzz problem
+    // print numbers from 1 to 100 but follow below rules
+    // print Fizz if the number is multiple of 3
+    // print Buzz if the number is multiple of 5
+    // print FizzBuzz if the number is multiple of 3 and 5
+    for num in 1..=100 {
+        if num % 3 == 0 && num % 5 == 0 {
+            println!("FizzBuzz");
+        }else if num % 3 ==0 {
+            println!("Fizz");
+        } else if num % 5 ==0 {
+            println!("Buzz");
+        } else {
+            println!("{}", num);
+        }
+    }
 }
